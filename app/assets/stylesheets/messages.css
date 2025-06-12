@@ -6,10 +6,15 @@
 /* ヘッダー */
 .side-bar {
   width: 300px;
+
+  height: 100vh;
+  overflow: scroll;
+
   flex-shrink: 0;
 }
 .chat {
   width: calc(100vw - 300px);
+
 }
 .side-bar-header{
   background-color: #253141;
